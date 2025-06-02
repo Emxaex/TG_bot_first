@@ -5,7 +5,7 @@ import buttons
 import STbot3
 
 
-bot=telebot.TeleBot('7929557058:AAFkYtQVbkEluEg5DXHhc_jdkUyKEWhwmzQ')
+bot=telebot.TeleBot('')
 @bot.message_handler(commands=['start'])
 def start(message):
     #from_user для личных сообщений
